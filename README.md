@@ -1,6 +1,8 @@
 ## ThunderCloud installation files
 
-This repository hosts the installation files used by a Chrome extension called _ThunderCloud_. ThunderCloud makes your iCloud tabs available directly in Google Chrome. I've made these files available on GitHub so anyone can check them and see that they're completely safe and won't do anything they shouldn't. This readme will include an explanation why these files are needed and what they do.
+This repository hosts the installation files used by a Chrome extension called _ThunderCloud_. ThunderCloud makes your iCloud tabs available directly in Google Chrome. You can download ThunderCloud from [The Chrome Webstore](https://chrome.google.com/webstore/detail/kdjbkjcmgedoelefbopcifaffcdbehlc/).
+
+I've made these files available on GitHub so anyone can check them and see that they're completely safe and won't do anything they shouldn't. This readme will include an explanation why these files are needed and what they do.
 
 Your iCloud tabs are saved in a file on your Mac, _~/Library/SyncedPreferences/com.apple.Safari.plist_. Chrome Extensions are not allowed to open and read local files. In order for ThunderCloud to have access to your iCloud tabs, the file containing your iCloud tabs needs to be inside the same directory as the files of the extension.
 
