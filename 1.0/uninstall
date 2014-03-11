@@ -1,0 +1,11 @@
+echo "=========================================="
+echo "Disabling ThunderCloud"
+echo "=========================================="
+launchctl unload -w ~/Library/LaunchAgents/com.jeffreywashere.thundercloud.plist
+echo "=========================================="
+echo "Uninstalling ThunderCloud files"
+echo "=========================================="
+rm -Rf ~/Library/LaunchAgents/com.jeffreywashere.thundercloud.plist
+echo "=========================================="
+echo "Done!"
+echo "=========================================="

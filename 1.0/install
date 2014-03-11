@@ -1,0 +1,12 @@
+echo "=========================================="
+echo "Downloading ThunderCloud files"
+echo "=========================================="
+mkdir -p ~/Library/LaunchAgents
+curl -o ~/Library/LaunchAgents/com.jeffreywashere.thundercloud.plist https://raw.github.com/jeffrey52/thundercloud/master/1.0/com.jeffreywashere.thundercloud.xml
+echo "=========================================="
+echo "Installing ThunderCloud files"
+echo "=========================================="
+launchctl load -w ~/Library/LaunchAgents/com.jeffreywashere.thundercloud.plist
+echo "=========================================="
+echo "Done!"
+echo "=========================================="

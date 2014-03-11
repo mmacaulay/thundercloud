@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+		<string>com.jeffreywashere.thundercloud</string>
+	<key>KeepAlive</key>
+    <dict>
+    	<key>SuccessfulExit</key>
+			<false/>
+    </dict>
+	<key>ProgramArguments</key>
+	<array>
+		<string>sh</string>
+		<string>-c</string>
+		<string>cp ~/Library/SyncedPreferences/com.apple.Safari.plist ~/Library/Application\ Support/Google/Chrome/Default/Extensions/kdjbkjcmgedoelefbopcifaffcdbehlc/1.0_0; plutil -convert xml1 ~/Library/Application\ Support/Google/Chrome/Default/Extensions/kdjbkjcmgedoelefbopcifaffcdbehlc/1.0_0/com.apple.Safari.plist;</string>
+	</array>
+	<key>RunAtLoad</key>
+		<true/>
+	<key>StartInterval</key>
+		<integer>180</integer>
+</dict>
+</plist>
